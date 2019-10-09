@@ -15,7 +15,7 @@ class Dog
   def self.print_all
     i = 0
     loop do 
-      print all[i]
+      puts all[i]
       i+=1
       if i == all.length
         break
