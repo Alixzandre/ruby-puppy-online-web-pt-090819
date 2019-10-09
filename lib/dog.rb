@@ -21,5 +21,5 @@ class Dog
         break
       end
     end
-  
+  end
 end
