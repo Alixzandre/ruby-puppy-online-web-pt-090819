@@ -17,7 +17,7 @@ class Dog
     loop do 
       puts all[i]
       i+=1
-      if i == self.all.length
+      if i == self.all.size
         break
       end
     end
