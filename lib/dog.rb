@@ -15,9 +15,9 @@ class Dog
   def self.print_all
     i = 0
     loop do 
-      print @all[i]
+      print self.all[i]
       i+=1
-      if i == @@all.size
+      if i == self.all.size
         break
       end
     end
