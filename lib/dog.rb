@@ -14,13 +14,7 @@ class Dog
   end
   
   def self.print_all
-    i = 0
-    loop do 
-      puts self.all[i]
-      i+=1
-      if i == self.all.size
-        break
-      end
+    @@all.each do |dog|
+      puts dog.name
     end
-  end
 end
