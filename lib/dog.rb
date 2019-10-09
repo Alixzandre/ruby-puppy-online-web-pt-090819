@@ -13,6 +13,13 @@ class Dog
   end
   
   def self.print_all
-    
+    i = 0
+    loop do 
+      print @all[i]
+      i+=1
+      if i == @@all.size
+        break
+      end
+    end
   
 end
