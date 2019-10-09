@@ -19,6 +19,6 @@ class Dog
       if i == @@all.size
         break
       end
-  end
+    end
   
 end
