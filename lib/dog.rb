@@ -17,7 +17,7 @@ class Dog
     loop do 
       print all[i]
       i+=1
-      if i == @all.length
+      if i == all.length
         break
       end
     end
